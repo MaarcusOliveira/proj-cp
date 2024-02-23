@@ -7,20 +7,20 @@
     <link rel="stylesheet" href="../styles/styles.css">
     <title>Vassouras</title>
 </head>
-<body>
+<div>
     <h1> Campus Vassouras </h1>
 
     <div class="fundo_Bordo div_Primaria">
         <p class="Paragrafo_principal">Escolha o Campus Univassouras</p>
-        
-        <ul>
-            <li><a href="../Pages/Campus_vassouras.html">Vassouras</a></li>
-            <li><a href="../Pages/Campus_marica.html">Marica</a></li>
-            <li><a href="../Pages/Campus_saquarema.html">Saquarema</a></li>
-        </ul>
-
-
-    
+        <div class="div_secundaria">
+                <select class="selecionar_campus" onchange="location.href=this.value">
+                    <option value=""> Selecione a Cidade</option>
+                    <option value="../Pages/Campus_vassouras.html"> Campus Vassouras</option>
+                    <option value="../Pages/Campus_marica.html"> Campus Maricá</option>
+                    <option value="../Pages/Campus_saquarema.html"> Campus Saquarema</option>
+            
+                </select>
+        </div>
     </div>
 
 
