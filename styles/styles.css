@@ -1,7 +1,7 @@
 :root {
     --bordo-transparente: #6D1D20;
     --branco: #FFFFFF;
-    --cinza: #D9D9D9;
+    --cinza: #b1afaf;
     --preto: #000000;
 }
 
@@ -37,6 +37,10 @@
     /* width: 100%; */
 }
 
-
+.selecionar_campus {
+    text-decoration: var(--branco);
+    background-color: var(--cinza);
+    color: var(--branco);
+}
     
 
