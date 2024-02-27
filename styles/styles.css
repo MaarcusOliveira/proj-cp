@@ -5,9 +5,10 @@
     --preto: #000000;
 }
 
+
 .fundo_Bordo {
     position: fixed;
-    display: flex; 
+    display: flex;
     width: 100%; 
     height: 100%;
     top: 0;
@@ -20,6 +21,7 @@
     opacity: 0.9;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .div_Primaria{
@@ -34,13 +36,13 @@
     font-weight: 700;
     text-align: center;  
     /*line-height: 1.5; */
-    /* width: 100%; */
 }
 
 .selecionar_campus {
     text-decoration: var(--branco);
     background-color: var(--cinza);
     color: var(--branco);
+
 }
     
 
