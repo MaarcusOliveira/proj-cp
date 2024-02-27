@@ -5,16 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/styles.css">
-    <script src="../Main.js"></script>
+    <script src="../Main.js" defer></script>
     <title>Vassouras</title>
 </head>
-<div>
+<body>
     <h1> Campus Vassouras </h1>
 
     <div class="fundo_Bordo div_Primaria">
-        <p class="Paragrafo_principal">Escolha o Campus Univassouras</p>
+        <p class="Paragrafo_principal"><u>Escolha o Campus Univassouras</u></p>
         <div class="div_secundaria">
-                <select class="selecionar_campus" onchange="location.href=this.value">
+                <!--<select class="selecionar_campus" onchange="location.href=this.value">-->
+                    <select class="selecionar_campus">
                     <option value=""> Selecione a Cidade</option>
                     <option value="../Pages/Campus_vassouras.html"> Campus Vassouras</option>
                     <option value="../Pages/Campus_marica.html"> Campus Maricá</option>
@@ -23,6 +24,7 @@
                 </select>
         </div>
     </div>
+
 
 
 

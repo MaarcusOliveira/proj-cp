@@ -20,7 +20,6 @@
     background-color: var(--bordo-transparente);
     opacity: 0.9;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
 }
 
@@ -36,13 +35,16 @@
     font-weight: 700;
     text-align: center;  
     /*line-height: 1.5; */
+    /* width: 100%; */
 }
 
 .selecionar_campus {
     text-decoration: var(--branco);
     background-color: var(--cinza);
     color: var(--branco);
-
+    align-items: center;
+    padding: 9px 55px;
+    border-radius: 5px;
 }
     
 
