@@ -1,6 +1,6 @@
  //var selecionarCampus = document.getElementById('selecionar_campus');
 
-const selecionarCampus = document.querySelector('.selecionar_campus');
+const selecionarCampus = document.querySelector('.selecionar__campus');
 const fundoBordo = document.querySelector('.fundo_Bordo');
 
 selecionarCampus.addEventListener('change', (event) => {

@@ -1,8 +1,9 @@
 :root {
     --bordo-transparente: #6D1D20;
     --branco: #FFFFFF;
-    --cinza: #b1afaf;
+    --cinza: #646363;
     --preto: #000000;
+    --cinza-claro: #e4e4e4;
 }
 
 
@@ -40,14 +41,23 @@
    
 }
 
-.selecionar_campus {
+.selecionar__campus {
     text-decoration: var(--branco);
     background-color: var(--cinza);
     color: var(--branco);
     align-items: center;
     padding: 9px 55px;
     border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
 }
+option{
+    background-color: var(--cinza-claro);
+    color: var(--cinza);
+    font-size: 16px;
+    font-weight: 700;
+}
+
     
 .divisor{
     border: 1px solid var(--branco);
